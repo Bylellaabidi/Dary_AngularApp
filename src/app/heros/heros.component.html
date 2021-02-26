@@ -1,0 +1,77 @@
+
+<section class="hero-section">
+    <div class="container">
+        <div class="hs-slider">
+            <div class="fp-slider ">
+
+                <owl-carousel class="fp-item set-bg" [options]=" { items: 1, dots: true, navigation: true }"
+                    [carouselClasses]="['owl-theme','row', 'sliding']">
+
+                    <div class="fp-item set-bg" *ngFor="let img of imgs"
+                        data-setbg="../../assets/img/feature-property/fp-1.jpg">
+                        <img style="  background-repeat: no-repeat,
+                    background-size: cover,
+                    background-position: top center" src={{img}} />
+                        <div class="fp-text">
+                            <h5 class="title">Home in Merrick Way</h5>
+                            <p><span class="icon_pin_alt"></span> 3 Middle Winchendon Rd, Rindge, NH 03461</p>
+                            <div class="label">For Rent</div>
+                            <h5>$ 289.0<span>/month</span></h5>
+                            <ul>
+                                <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                <li><i class="fa fa-bathtub"></i> 03</li>
+                                <li><i class="fa fa-bed"></i> 05</li>
+                                <li><i class="fa fa-automobile"></i> 01</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </owl-carousel>
+            </div>
+            <!--<div class="hs-item set-bg" data-setbg="img/hero/hero-2.jpg">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hc-inner-text">
+                            <div class="hc-text">
+                                <h4>Balaji Symphony</h4>
+                                <p><span class="icon_pin_alt"></span> Panvel, Navi Mumbai</p>
+                                <div class="label">For Rent</div>
+                                <h5>$ 65.0<span>/month</span></h5>
+                            </div>
+                            <div class="hc-widget">
+                                <ul>
+                                    <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                    <li><i class="fa fa-bathtub"></i> 03</li>
+                                    <li><i class="fa fa-bed"></i> 05</li>
+                                    <li><i class="fa fa-automobile"></i> 01</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+            <!--<div class="hs-item set-bg" data-setbg="img/hero/hero-3.jpg">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="hc-inner-text">
+                            <div class="hc-text">
+                                <h4>Balaji Symphony</h4>
+                                <p><span class="icon_pin_alt"></span> Panvel, Navi Mumbai</p>
+                                <div class="label">For Rent</div>
+                                <h5>$ 65.0<span>/month</span></h5>
+                            </div>
+                            <div class="hc-widget">
+                                <ul>
+                                    <li><i class="fa fa-object-group"></i> 2, 283</li>
+                                    <li><i class="fa fa-bathtub"></i> 03</li>
+                                    <li><i class="fa fa-bed"></i> 05</li>
+                                    <li><i class="fa fa-automobile"></i> 01</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</section>
